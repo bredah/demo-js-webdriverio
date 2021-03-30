@@ -1,0 +1,29 @@
+{
+  "extends": ["eslint:recommended"],
+  "env": {
+    "node": true,
+    "es6": true,
+    "jasmine": true
+  },
+  "globals": {
+    "browser": false,
+    "expect": false,
+    "$": false,
+    "$$": false
+  },
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "rules": {
+    "array-element-newline": ["error", "consistent"],
+    "max-len": [
+      "error",
+      {
+        "code": 100,
+        "ignoreStrings": true,
+        "ignoreComments": true
+      }
+    ]
+  }
+}

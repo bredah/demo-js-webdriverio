@@ -1,0 +1,5 @@
+.babelrc
+jsconfig.json
+wdio.bdd.conf.js
+wdio.spec.conf.js
+reports/*

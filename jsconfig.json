@@ -1,0 +1,9 @@
+{
+  "include": [
+    "features/**/*.js",
+    "test/**/*.js",
+    "data/*.json",
+    "node_modules/@wdio/sync",
+    "node_modules/@wdio/mocha-framework"
+  ]
+}
